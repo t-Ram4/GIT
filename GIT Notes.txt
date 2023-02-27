@@ -1,0 +1,46 @@
+Version control 
+Version control is software that track and manages changes to files over time.
+
+GIT is a Version Control Software
+
+Installation
+To install GIT, go to this below link and click download link in the page. You will get a Git Bash command prompt.
+https://git-scm.com/download/win
+
+
+How to configure name
+git config --global user.name "Ram"
+
+To find the configured name
+git config user.name
+
+How to configure email
+git config --global user.email Ram@mazenetsolution.com
+
+How to check the status
+git status
+
+How to create a repository
+Go to a folder and enter the below commnd
+git init
+
+There will be a .git folder created and it is hidden . to see that use the following command
+ls -a
+
+
+Working directory--This is where we make changes
+Staging Area--When we issue git add command, changes moved in this location
+Repository-When we issue git commit, changes moved in this location.
+
+To stage a file
+git add <file name>
+
+To commit with message
+git commit -m "my message"
+
+To know the history of what happened in this repository use the following command
+git log
+
+To stage all changes at once use the following command
+git add .
+

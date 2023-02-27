@@ -1,0 +1,42 @@
+ 	Installation
+	To install GIT, go to this below link and click download link in the page. You will get a Git Bash command prompt.
+	https://git-scm.com/download/win
+
+	Configure name
+	git config --global user.name "name"
+
+
+	Configure email
+	git config --global user.email email address
+
+
+
+	1.Create a new folder tourplan
+
+	2.Intialize a new git repo inside tour folder
+
+	3.Make a new file inside this folder called placesToSee.txt
+
+	4.Make another file inside this folder ThingsToDo.txt
+
+
+	To stage both files
+
+	git add .
+
+	To commit with message
+	git commit -m "two files created."
+
+	Add below lines in ThingsToDo file
+	1.Book flight
+	2.Book Hotel
+	3.Book Cab
+
+	Add below lines in placesToVisit file
+	1.Delhi RedFort
+	2.Jaipur palace
+	3.Agra TajMahal
+
+Only stage and commit ThingsToDo file
+
+Use the git log command to see the log
